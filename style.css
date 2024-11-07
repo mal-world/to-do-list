@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: rgb(209, 161, 102);
+}
+
+.container {
+    width: 500px;
+    background-color: azure;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+h1 {
+    font-family: 'Sour Gummy', cursive;
+    text-align: center;
+    color: #333;
+}
+
+.todo-form {
+    display: flex;
+    gap: 10px;
+}
+
+.taskInput {
+    font-size: 16px;
+    font-family: 'Sour Gummy', cursive;
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #219e09;
+    border: none;
+    border-radius: 40px;
+    color: #efefef;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+button:hover {
+    background-color: #4bc433;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+li {
+    font-family: 'Sour Gummy', cursive;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #ddd;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+.material-symbols-outlined {
+    cursor: pointer;
+}
